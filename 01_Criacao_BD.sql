@@ -1,4 +1,6 @@
 
+-- Cria a estrutura inicial do banco com os tipos de dados corretos e IDs autoincrementais.
+
 CREATE TABLE usuarios (
     id SERIAL PRIMARY KEY,
     nome VARCHAR(255) NOT NULL,
